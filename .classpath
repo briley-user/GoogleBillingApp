@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/knotb/Downloads/google-api-services-cloudbilling-v1-rev21-java-1.23.0/cloudbilling/libs/google-api-client-1.23.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/knotb/Downloads/google-api-services-cloudbilling-v1-rev21-java-1.23.0/cloudbilling/libs/google-api-client-jackson2-1.23.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/knotb/Downloads/google-api-services-cloudbilling-v1-rev21-java-1.23.0/cloudbilling/libs/google-http-client-1.23.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/knotb/Downloads/google-api-services-cloudbilling-v1-rev21-java-1.23.0/cloudbilling/libs/google-http-client-jackson2-1.23.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/knotb/Downloads/google-api-services-cloudbilling-v1-rev21-java-1.23.0/cloudbilling/libs/google-oauth-client-1.23.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/knotb/Downloads/google-api-services-cloudbilling-v1-rev21-java-1.23.0/cloudbilling/libs/google-oauth-client-appengine-1.23.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/knotb/Downloads/google-api-services-cloudbilling-v1-rev21-java-1.23.0/cloudbilling/libs/google-oauth-client-java6-1.23.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/knotb/Downloads/google-api-services-cloudbilling-v1-rev21-java-1.23.0/cloudbilling/libs/google-oauth-client-jetty-1.23.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/knotb/Downloads/google-api-services-cloudbilling-v1-rev21-java-1.23.0/cloudbilling/libs/google-oauth-client-servlet-1.23.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/knotb/Downloads/google-api-services-cloudbilling-v1-rev21-java-1.23.0/cloudbilling/google-api-services-cloudbilling-v1-rev21-1.23.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/knotb/Downloads/google-api-services-cloudbilling-v1-rev21-java-1.23.0/cloudbilling/google-api-services-cloudbilling-v1-rev21-1.23.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/knotb/Downloads/google-api-services-cloudbilling-v1-rev21-java-1.23.0/cloudbilling/google-api-services-cloudbilling-v1-rev21-1.23.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/knotb/Downloads/jackson-core-2.9.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
