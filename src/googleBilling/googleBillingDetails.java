@@ -6,7 +6,10 @@ import com.google.api.client.http.HttpTransport;
 import com.google.api.client.json.*;
 import com.google.api.client.json.jackson2.JacksonFactory;
 import com.google.api.services.cloudbilling.Cloudbilling;
+import com.google.api.services.cloudbilling.CloudbillingRequest;
+import com.google.api.services.cloudbilling.CloudbillingScopes;
 import com.google.api.services.cloudbilling.model.ProjectBillingInfo;
+import com.google.api.services.cloudbilling.model.*;
 import java.io.IOException;
 import java.security.GeneralSecurityException;
 import java.util.*;
@@ -31,10 +34,13 @@ public class googleBillingDetails {
 
 	        String name= "projects/foodie-directions-07-22-2018"; // change this to my project name in the google cloud
 	         Cloudbilling.Projects.GetBillingInfo request = cloudbillingService.projects().getBillingInfo(name);
+	         
 	         System.out.println("request:"+request.toString());
 	         ProjectBillingInfo response = request.execute();
-
-	         System.out.println(response.getBillingAccountName());
+	   
+	         
+	         System.out.println("Billing Enabled:"+response.getBillingEnabled());
+	     
 	        }
 
 
